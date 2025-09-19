@@ -16,7 +16,7 @@ export default function About() {
                             whileTap={{ scale: 0.95 }} href="#technology" className="inline-block px-8 py-3 bg-blue-900 hover:bg-blue-800 text-white text-lg font-semibold rounded-full">Learn More <i className="fa-solid fa-arrow-right text-sm ms-2"></i></motion.a>
                     </div>
                 </motion.div>
-                <motion.div initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeInRight} className="flex justify-center ms-5">
+                <motion.div initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeInRight} className="flex justify-center">
                     <div className="w-full max-w-md bg-white p-2 rounded-2xl shadow-inner shadow-xl">
                         <img src={aboutImage} alt="Droplet" className="w-full h-full object-contain rounded-2xl" />
                     </div>
