@@ -54,7 +54,7 @@ export default function NavBar() {
                     className="lg:hidden bg-white/95"
                 >
                     <div className="px-6 py-4 flex flex-col gap-8">
-                        <a href="#home" onClick={() => setOpen(false)} className="hover:text-blue-600 text-lg tracking-wide text-gray-600" >Home</a>
+                        <a href="/" onClick={() => setOpen(false)} className="hover:text-blue-600 text-lg tracking-wide text-gray-600" >Home</a>
                         <a href="#about" onClick={() => setOpen(false)} className="hover:text-blue-600 text-lg tracking-wide text-gray-600">About Us</a>
                         <a href="#benefits" onClick={() => setOpen(false)} className="hover:text-blue-600 text-lg tracking-wide text-gray-600">Service</a>
                         <a href="#technology" onClick={() => setOpen(false)} className="hover:text-blue-600 text-lg tracking-wide text-gray-600">Contact</a>
