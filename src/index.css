@@ -1,0 +1,14 @@
+html, body {
+  overflow-x: hidden;
+}
+
+@import "tailwindcss";
+
+
+.hero-sec, .about-sec, .benefits-sec, .situation-sec, .company-sec, .advantage-sec, .milestone-sec, .testimonial-sec{
+    background-color: #d7e0e7;
+}
+
+.hero-inner-div, .situation-inner, .company-inner {
+    background-color: #e5e5e5;
+}
